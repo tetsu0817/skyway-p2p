@@ -28,10 +28,18 @@ const Peer = window.Peer;
   localVideo.playsInline = true;
   await localVideo.play().catch(console.error);
 
+console.log("test-1");
+
   const peer = (window.peer = new Peer({
     key: window.__SKYWAY_KEY__,
     debug: 3,
+
+console.log("test-2");
+
   }));
+
+
+console.log("test-3");
 
   // Register caller handler
   callTrigger.addEventListener('click', () => {
