@@ -34,7 +34,7 @@ console.log("test-1");
     key: window.__SKYWAY_KEY__,
     debug: 3,
 
-console.log("test-2");
+// console.log("test-2");
 
   }));
 
